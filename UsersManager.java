@@ -212,9 +212,10 @@ static HashMap<String,User> allUsers;
    public static void viewBlocked(){
     //   Set<String> set = allUsers.keySet();
       for (String key  : allUsers.keySet()){
-            if () {
-                
+            if (allUsers.get(key).hashCode()) {
+                allUsers.get(key);
             }
+       
      }
    }
 
